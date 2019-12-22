@@ -6,7 +6,7 @@ HTTPS（全称：Hyper Text Transfer Protocol over SecureSocket Layer，超文�
 
 在采用了SSL之后，HTTP就拥有的了加密、证书和完整性保护的功能。
 
-![](http://sinacloud.net/wycblog/githubimg/HTTP%E4%B8%8EHTTPS.png?KID=sina,35csxclN8sEkGjPfjiEN&Expires=1576413075&ssig=i8cbxRLCdH)
+![http与https](https://github.com/wycyftk/images/blob/master/blog/fe-interview/https/HTTP%E4%B8%8EHTTPS.png)
 
 ## 二、HTTPS 出现的背景
 
@@ -18,7 +18,7 @@ HTTP 是非常优秀的数据传输协议，但是也有它的不足，这些不
 
 安全的问题不仅仅有上面的原因，同时也因为 TCP/IP 的设计本身也是不安全的。 TCP/IP 协议族用于互联网的建设，所以数据是可以到达网络的每一个节点的，因此数据在的传输中是能被所有接入网络的用户接收到。很难保证在全球这么巨大的网络中，不会有恶意的用户在网络中通过抓包的方式去获取其他人的数据。
 
-![](http://sinacloud.net/wycblog/githubimg/https.png?KID=sina,35csxclN8sEkGjPfjiEN&Expires=1576423950&ssig=5qHqGcb5gh)
+![网络](https://github.com/wycyftk/images/blob/master/blog/fe-interview/https/%E7%BD%91%E7%BB%9C.png)
 
 ## 三、HTTPS 如何保证通信安全的
 
@@ -122,11 +122,11 @@ HTTPS的通信过程分为4个阶段，主要的步骤有12个。
 
 上述过程用图表示如下：
 
-![](http://sinacloud.net/wycblog/githubimg/https%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.png?KID=sina,35csxclN8sEkGjPfjiEN&Expires=1576426168&ssig=rnl0cuQhfn)
+![通信过程](https://github.com/wycyftk/images/blob/master/blog/fe-interview/https/https%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.png)
 
 ### 4.2 建立连接过程图解
 
 HTTPS建立连接的过程如下图。在这个过程中，使用非对称加密保护随机密码串的发生；对称加密使用的初始加密向量并不是随机密码串，而是通过随机密码串生成的。
 
-![](http://sinacloud.net/wycblog/githubimg/https%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E8%BF%87%E7%A8%8B.png?KID=sina,35csxclN8sEkGjPfjiEN&Expires=1576919359&ssig=QvdVjqlj%2Bf)
+![https建立连接过程](https://github.com/wycyftk/images/blob/master/blog/fe-interview/https/https%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E8%BF%87%E7%A8%8B.png)
 
